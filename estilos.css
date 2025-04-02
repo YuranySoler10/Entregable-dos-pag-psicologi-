@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Pacifico&display=swap');
+
+*{
+    font-family: "Fredoka", sans-serif;
+    
+    
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./img/fondo\ blanco.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    }
+
+.myButton{
+   background-color:#f69280c9 ;
+    padding: 15px;
+    border-radius: 40px;
+    color: #5d3d4b;
+    margin: 5px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.myButton:hover{
+background-color: rgba(173, 247, 206, 0.87);
+color: black;
+padding: 20px;
+}
+
+p{
+    font-size: 1rem;
+    color: #663f51;
+}
+
+.myTitle{
+    font-family: "Pacifico", cursive;
+    font-size: 2rem;
+    color: #a7577b;
+}
+
+.titulo-columna {
+    color: #a7577b;
+    text-align: center;
+}
+
+footer.bg-dark{
+    background-color:#fea99ac9 !important;
+
+}
